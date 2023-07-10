@@ -3,9 +3,9 @@
 
 
 class BaseGeometry:
-    """Represent base geometry."""
+    """this BaseGeometry module represents a base geometry"""
 
     def area(self):
-        """Not implemented."""
+        """the area method not implemented yet"""
         raise Exception("area() is not implemented")
 

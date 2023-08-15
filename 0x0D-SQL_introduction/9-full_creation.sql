@@ -1,4 +1,4 @@
---Create new table in the existing database
+-- Create new table in the existing database
 CREATE table IF NOT EXISTS second_table (`id` INT,
 `name` VARCHAR(256),
 `score` INT);

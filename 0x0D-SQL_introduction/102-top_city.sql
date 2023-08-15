@@ -1,4 +1,4 @@
---List average temp of July and August in desc order
+-- List average temp of July and August in desc order
 CREATE TABLE IF NOT EXISTS temp_july_aug
        SELECT *
        FROM temperatures

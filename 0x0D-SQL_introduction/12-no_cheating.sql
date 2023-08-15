@@ -1,4 +1,4 @@
---Update the table
+-- Update the table
 UPDATE `second_table`
 SET
 `score` = 10

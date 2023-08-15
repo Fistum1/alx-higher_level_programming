@@ -1,3 +1,3 @@
---Insert new values in the table
+-- Insert new values in the table
 INSERT INTO `first_table` (`id`, `name`) VALUES (89, 'Best School');
 

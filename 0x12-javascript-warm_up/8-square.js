@@ -1,6 +1,5 @@
 #!/usr/bin/node
 // Prints a square
-
 if (isNaN(process.argv[2])) {
   console.log('Missing size');
 } else {
@@ -8,4 +7,3 @@ if (isNaN(process.argv[2])) {
     console.log('X'.repeat(parseInt(process.argv[2])));
   }
 }
-

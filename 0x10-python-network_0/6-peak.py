@@ -20,9 +20,9 @@ def find_peak(num):
         value = num[idx]
         if (idx > 0 and idx < length - 1 and
                 num[idx + 1] <= value and num[idx - 1] <= value):
-                return value
+            return value
         elif idx == 0 and num[idx + 1] <= value:
             return value
         elif idx == length - 1 and num[idx - 1] <= value:
             return value
-    return pick
+    return value
